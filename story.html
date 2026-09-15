@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Murray J. Lirette — Bombardier, 100th Bomb Group</title>
+<meta name="description" content="The war of Murray Joseph Lirette of Houma, Louisiana: bombardier in the Bloody Hundredth, blown out of a B-17 over Liège on 11 May 1944, prisoner of Stalag Luft III, then an engineer at the Michoud rocket factory and a knight of the Order of Leopold at 102.">
+<meta property="og:title" content="Murray J. Lirette — Bombardier, 100th Bomb Group">
+<meta property="og:description" content="Liège, Stalag Luft III, the winter march, Michoud, and the Order of Leopold.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#FFFFFF; --bg-alt:#F7F8FA; --text:#17191C; --muted:#5C646D; --faint:#8A929C;
+    --line:#E4E7EB; --line-strong:#CFD4DA; --accent:#1F5FA8; --accent-soft:#EDF3FA;
+    --img-bright:1; --radius:10px; --maxw:40rem;
+  }
+  html[data-theme="dark"]{
+    --bg:#0F1114; --bg-alt:#181B1F; --text:#E8EAED; --muted:#A2AAB4; --faint:#7C848E;
+    --line:#282C32; --line-strong:#3A3F46; --accent:#7DB3EC; --accent-soft:#152230;
+    --img-bright:.88;
+  }
+  @media (prefers-color-scheme:dark){
+    html:not([data-theme="light"]){
+      --bg:#0F1114; --bg-alt:#181B1F; --text:#E8EAED; --muted:#A2AAB4; --faint:#7C848E;
+      --line:#282C32; --line-strong:#3A3F46; --accent:#7DB3EC; --accent-soft:#152230;
+      --img-bright:.88;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%;background:var(--bg)}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+    font-size:17px;line-height:1.72;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 1.25rem}
+
+  .themebar{max-width:var(--maxw);margin:0 auto;padding:1rem 1.25rem 0;display:flex;justify-content:flex-end}
+  #themeToggle{
+    display:inline-flex;align-items:center;gap:.45rem;font:inherit;font-size:.82rem;font-weight:500;
+    color:var(--muted);background:var(--bg-alt);border:1px solid var(--line);
+    border-radius:999px;padding:.35rem .8rem;cursor:pointer;
+  }
+  #themeToggle:hover{color:var(--text)}
+  #themeToggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  #themeToggle svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round}
+
+  header.hero{padding:1.5rem 0 2.5rem;border-bottom:1px solid var(--line)}
+  .kicker{font-size:.8rem;font-weight:600;color:var(--accent);margin:0 0 .9rem}
+  h1{font-size:clamp(2.2rem,7.5vw,3.1rem);font-weight:700;letter-spacing:-.028em;line-height:1.08;margin:0 0 .5rem}
+  .sub{font-size:1.06rem;color:var(--muted);margin:0 0 .3rem}
+  .years{font-size:1.06rem;color:var(--faint);margin:0}
+
+  .portrait{margin:2rem 0 0;display:flex;gap:1.25rem;align-items:flex-start;flex-wrap:wrap}
+  .portrait img{
+    width:158px;height:auto;display:block;border-radius:8px;
+    border:1px solid var(--line);background:var(--bg-alt);filter:brightness(var(--img-bright));
+  }
+  .portrait figcaption{font-size:.86rem;line-height:1.55;color:var(--faint);flex:1;min-width:13rem;margin:0}
+
+  main{padding:2.5rem 0 1rem}
+  .opening{font-size:1.16rem;line-height:1.62;margin-bottom:1.4rem}
+
+  h2{font-size:1.5rem;font-weight:700;letter-spacing:-.02em;line-height:1.25;margin:3.1rem 0 .85rem}
+  h3{font-size:1.12rem;font-weight:600;margin:2rem 0 .5rem}
+  p{margin:0 0 1.15rem}
+  a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+  strong{font-weight:600}
+  em{font-style:italic}
+
+  figure.wide{margin:2.2rem 0}
+  figure.wide img{
+    width:100%;height:auto;display:block;border-radius:var(--radius);
+    border:1px solid var(--line);background:var(--bg-alt);filter:brightness(var(--img-bright));
+  }
+  figure.wide figcaption{font-size:.86rem;line-height:1.55;color:var(--faint);margin-top:.6rem}
+  .duo,.trio{display:grid;gap:.6rem;align-items:start}
+  .duo{grid-template-columns:1fr 1fr}
+  .trio{grid-template-columns:repeat(3,1fr)}
+  .duo figcaption,.trio figcaption{grid-column:1/-1}
+  @media(max-width:31rem){.duo,.trio{grid-template-columns:1fr}}
+  figure.noimg{display:none}
+
+  .card{background:var(--bg-alt);border:1px solid var(--line);border-radius:var(--radius);padding:1.2rem 1.35rem;margin:2rem 0}
+  .card dl{display:grid;grid-template-columns:8rem 1fr;gap:.65rem 1rem;margin:0;font-size:.93rem}
+  .card dt{color:var(--muted);font-weight:500}
+  .card dd{margin:0;font-weight:500}
+  @media(max-width:31rem){
+    .card dl{grid-template-columns:1fr;gap:.1rem}
+    .card dt{font-size:.81rem}
+    .card dd{margin-bottom:.65rem}
+  }
+
+  blockquote{margin:1.9rem 0;padding:0 0 0 1.1rem;border-left:3px solid var(--line-strong);font-size:1.1rem;line-height:1.5}
+  blockquote cite{display:block;font-style:normal;font-size:.86rem;color:var(--faint);margin-top:.5rem}
+
+  ul{margin:0 0 1.2rem;padding-left:1.15rem}
+  li{margin-bottom:.45rem}
+
+  .crew{list-style:none;padding:0;margin:1.6rem 0 1.4rem;border-top:1px solid var(--line-strong);font-size:.95rem}
+  .crew li{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.55rem 0;border-bottom:1px solid var(--line);margin:0}
+  .crew .role{color:var(--muted)}
+  .crew .fate{color:var(--faint);white-space:nowrap}
+  .crew .lived .fate{color:var(--accent);font-weight:600}
+
+  .detail{
+    background:var(--bg-alt);border:1px solid var(--line);border-radius:var(--radius);
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:.84rem;line-height:1.85;padding:1rem 1.2rem;margin:1.4rem 0 1.8rem;overflow-x:auto;
+  }
+  .detail b{color:var(--muted);font-weight:600}
+
+  .notes{margin-top:3rem;border-top:1px solid var(--line);padding-top:1.6rem}
+  .notes h2{margin-top:1.2rem;font-size:1.28rem}
+  .notes p,.notes li{font-size:.94rem;line-height:1.65;color:var(--muted)}
+  .notes strong{color:var(--text)}
+
+  footer{margin-top:3rem;border-top:1px solid var(--line);background:var(--bg-alt);padding:2rem 0 2.75rem;font-size:.86rem;line-height:1.65;color:var(--muted)}
+  footer strong{color:var(--text)}
+  footer p{margin-bottom:.85rem}
+  footer h3{font-size:.95rem;font-weight:600;color:var(--text);margin:0 0 .7rem}
+  footer h3:not(:first-child){margin-top:1.9rem}
+  footer ul{margin:0 0 .5rem;padding-left:1.1rem}
+  footer li{margin-bottom:.55rem}
+
+  @media print{
+    html{--bg:#fff;--text:#000;--img-bright:1}
+    .themebar{display:none}
+    .card,.detail,footer{background:#fff}
+    figure,.card,.crew{page-break-inside:avoid}
+    h2{page-break-after:avoid}
+  }
+</style>
+</head>
+<body>
+
+<div class="themebar">
+  <button id="themeToggle" type="button" aria-label="Switch colour theme">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.4v2.2M12 19.4v2.2M4.2 12H2M22 12h-2.2M6.1 6.1 4.5 4.5M19.5 19.5l-1.6-1.6M17.9 6.1l1.6-1.6M4.5 19.5l1.6-1.6"/></svg>
+    <span id="themeLabel">Theme</span>
+  </button>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">351st Bomb Squadron · 100th Bomb Group (Heavy) · Eighth Air Force</p>
+    <h1>Murray J. Lirette</h1>
+    <p class="sub">Bombardier. Blown out of a B-17 over Liège, prisoner of Stalag Luft III, engineer at the rocket factory.</p>
+    <p class="years">Houma, Louisiana — Slidell, Louisiana</p>
+
+    <figure class="portrait">
+      <img src="assets/portrait-web.jpg" alt="Wartime portrait photograph of Lieutenant Murray J. Lirette in uniform">
+      <figcaption>Lt Murray J. Lirette. The photograph was given to the 100th Bomb Group Foundation by Lirette himself, and is held in his personnel record there.</figcaption>
+    </figure>
+  </div>
+</header>
+
+<main class="wrap">
+
+<p class="opening">A little after half past six on the evening of 11 May 1944, a second lieutenant from Houma, Louisiana, sat in the glass nose of a B-17 called <em>Katie</em> and let go twelve 500-lb bombs over the railway yards at Liège. Seconds later a flak shell went into the wing. The aeroplane caught fire, fell into a spin, and blew apart — and the explosion threw him clear of it.</p>
+
+<p class="opening">Seven of the ten men aboard were killed. He spent the next year as a prisoner of the Germans. Forty years after that his name turned up in a company newspaper at the factory that built the Space Shuttle's fuel tanks, and at 102 the country he fell into made him a knight. This is what the record holds of that life.</p>
+
+<div class="card">
+  <dl>
+    <dt>Serial number</dt><dd>O-767531, U.S. Army Air Forces</dd>
+    <dt>Rank</dt><dd>Second Lieutenant</dd>
+    <dt>Trade</dt><dd>Bombardier</dd>
+    <dt>Unit</dt><dd>351st Bomb Squadron, 100th Bomb Group (H), Eighth Air Force</dd>
+    <dt>Station</dt><dd>Thorpe Abbotts, Norfolk — AAF Station 139</dd>
+    <dt>Aircraft</dt><dd>B-17G 42-39983 <em>Katie</em>, code EP-F</dd>
+    <dt>Pilot</dt><dd>2nd Lt Jack Hunter</dd>
+    <dt>Shot down</dt><dd>11 May 1944, Liège, Belgium — flak · MACR 4866</dd>
+    <dt>Captivity</dt><dd>Stalag Luft III, Sagan · Nuremberg-Langwasser · liberated 1945</dd>
+    <dt>Honour</dt><dd>Chevalier de l'Ordre de Léopold, Belgium, 2026</dd>
+  </dl>
+</div>
+
+<h2>Houma, 1943</h2>
+
+<p>He was a Terrebonne Parish boy, from Houma in the bayou country south-west of New Orleans. His full name was Murray Joseph Lirette. The <em>O</em> at the front of his serial number, O-767531, marked him as a commissioned officer rather than an enlisted man.</p>
+
+<p>On <strong>16 October 1943</strong> the <em>Houma Times</em> ran a short notice that Murray Lirette had been awarded his wings. Bombardier school in those years ran something like twelve to eighteen weeks and ended with a second lieutenant's commission and the silver bombardier's badge. His own school, and the dates he went through it, have not yet been traced.</p>
+
+<p>What does survive is a photograph of the crew he trained with, taken at <strong>Pyote, Texas</strong> — the vast, wind-scoured B-17 base in the West Texas desert that its own airmen called the Rattlesnake Bomber Base. Ten young men in flying kit. Lirette is kneeling at bottom right.</p>
+
+<figure class="wide">
+  <img src="assets/crew-web.jpg" alt="Group photograph of a ten-man B-17 crew in flying kit during training at Pyote, Texas">
+  <figcaption>Lirette's original crew during training at Pyote, Texas. He is kneeling at bottom right. Photograph courtesy of Murray Lirette, 100th Bomb Group Foundation.</figcaption>
+</figure>
+
+<p>He never went to war with them. Before the crew shipped out, its pilot and co-pilot were pulled off and sent to train on B-29s. With the crew broken up, Lirette was reassigned, and shortly before it left for England he became the bombardier on the crew of <strong>2nd Lt Jack Hunter</strong>.</p>
+
+<p>The Hunter crew, as it stood, was ten men: Jack Hunter, pilot; George Shoesmith, co-pilot; Richard Heh, navigator; Murray Lirette, bombardier; Spiro Lecouras, radio operator; Arthur Wellingham, engineer and top turret gunner; Ernest Medhurst in the ball turret; Samuel Martiello and Robert Kuehl at the waist guns; and Herbert South in the tail.</p>
+
+<p>A posting decision made over his head had put him in a different aeroplane, on a different day, with a different set of friends.</p>
+
+<h2>The nose of a B-17</h2>
+
+<p>The job is worth being precise about, because everything that follows depends on it. In a B-17G the bombardier sat in the extreme nose, ahead of the pilots and beside the navigator, inside a frame of perspex with almost nothing solid around him. For most of a mission he was a gunner.</p>
+
+<p>On the bomb run he took over. The <strong>Norden bombsight</strong> was coupled through the autopilot to the aircraft's controls, so from the initial point to bombs away the bombardier was effectively flying the aeroplane — holding it straight, level and predictable through the most heavily defended minutes of the mission, at exactly the moment every gun below had its best chance. Everyone on board understood that those minutes were the price of hitting anything at all.</p>
+
+<figure class="wide">
+  <img src="assets/b17-bomb-run.jpg" alt="A formation of B-17 Flying Fortresses above cloud, with strings of bombs falling beneath them">
+  <figcaption>B-17s on a bomb run. From the initial point onward the formation flew straight and level, and the bombardier in each nose had the aeroplane. U.S. Army Air Forces photograph via Wikimedia Commons; not the 100th Bomb Group and not Lirette's aircraft.</figcaption>
+</figure>
+
+<p>Decades later, a profile written about him described the qualities the job demanded in terms he had carried into the rest of his life: patience, focus and discipline.</p>
+
+<h2>The Bloody Hundredth</h2>
+
+<p>The Hunter crew joined the <strong>100th Bomb Group</strong> in the spring of 1944 and was assigned to its 351st Bomb Squadron at <strong>Thorpe Abbotts</strong>, a bomber station scattered across the farmland near Diss in Norfolk. Farmland, Nissen huts and a control tower.</p>
+
+<p>They had come to a group with a name. The 100th had flown its first mission in June 1943, and since then had become the <strong>Bloody Hundredth</strong>: nine aircraft lost over Regensburg in August 1943, twelve over Münster that October, fifteen over Berlin on a single day in March 1944 — only weeks before the Hunter crew arrived.</p>
+
+<p>The group's own veterans added an honest qualification to the legend. Across 306 missions the 100th lost 177 aircraft, fewer than the 91st Bomb Group's 197. What marked the Hundredth was not the total but the shape of it: long stretches of ordinary attrition broken by single days of catastrophe, with roughly half of all its losses packed into about eight missions. The navigator Harry Crosby put it in his memoir as a matter of losing big rather than losing often.</p>
+
+<p>By that spring the group was flying at a punishing pace, against German cities, aircraft factories, rail targets and V-weapon sites.</p>
+
+<h2>Four weeks in <em>Katie</em></h2>
+
+<figure class="wide">
+  <img src="assets/katie-web.jpg" alt="B-17 Flying Fortress on a hardstand, with the name Katie painted in script on the nose beside a pin-up figure and rows of mission markings above">
+  <figcaption>B-17G 42-39983, <em>Katie</em>, of the 351st Bomb Squadron, with her nose art and mission markings. She reached Thorpe Abbotts on 4 December 1943 and was lost over Liège five months later with Lirette in her nose — the glazed compartment at far left. Imperial War Museums / American Air Museum archive.</figcaption>
+</figure>
+
+<p>The crew's aeroplane was <em>Katie</em>, serial 42-39983, squadron code EP-F. She had been at Thorpe Abbotts since 4 December 1943.</p>
+
+<p>Their war was short. The top turret gunner, <strong>Arthur Wellingham</strong>, kept a journal of the crew's missions, and it runs from <strong>12 April to 8 May 1944</strong>. That brackets almost exactly the whole of their operational life: about four weeks. Wellingham was killed on the mission after his last entry.</p>
+
+<p>On <strong>7 May</strong> the Hunter crew flew <em>Katie</em> to <strong>Berlin</strong>, group mission 111. Thirty-six of the group's aircraft went, and bombed through cloud by Pathfinder methods. Coming home safely did not mean coming home unhurt: another of the 100th's B-17s landed that day with its navigator dead and its bombardier wounded.</p>
+
+<p>On <strong>8 May</strong> the group flew twice — Berlin again in the morning, mission 112, and in the afternoon mission 113, against a “No-Ball” target at <strong>La Glacerie</strong> near Cherbourg in Normandy. No-Ball was the Allied code for V-weapon sites. The crew's own record lists them on 8 May under “112 / Berlin &amp; LaGlacerie,” twice over, and it was on the La Glacerie trip that their right waist gunner, Samuel Martiello, was hit. Wellingham recorded where — in the backside — with the flatness of a man who had decided to find things funny.</p>
+
+<p>Martiello was off flying status three days later, and so was the ball turret gunner, Ernest Medhurst. Two other men were put aboard <em>Katie</em> to take their places.</p>
+
+<h2>Liège</h2>
+
+<p><strong>Thursday, 11 May 1944.</strong> The group was alerted at half past ten that morning that something would be going off in the afternoon. At half past twelve thirty-six crews sat down to the briefing, and the intelligence officer, Captain <strong>Paul Mackesey</strong>, gave them the target: the <strong>marshalling yards at Liège</strong>, in occupied Belgium.</p>
+
+<p>He made the case in numbers. More than fifteen hundred goods wagons passed through those yards every twenty-four hours. The sidings ran to sixteen tracks and could hold two thousand wagons. It was a hinge in the German rail network feeding France and the Low Countries, four weeks before the Normandy landings. Aachen was the secondary.</p>
+
+<p>Mackesey told them what to keep clear of — the heavy batteries around Antwerp and Woensdrecht, the guns at Herenthals off to the right at the edge of their range — and what was waiting at the other end: <strong>sixteen heavy guns defending the target itself</strong>.</p>
+
+<p>The 100th was leading. Lieutenant Colonel <strong>Ollen Turner</strong> flew at the head of the 3rd Air Division and of the 13A formation, and Hunter's crew was in the Lead Squadron.</p>
+
+<p>Every aircraft got away from Thorpe Abbotts at three o'clock. <em>Katie</em> carried twelve 500-lb general-purpose bombs.</p>
+
+<p>Three minutes before the initial point, and for eleven minutes afterward, every ship in the formation threw out chaff from its bomb bay to blind the German gun-laying radar. Over the target the flak came up heavy and accurate, tracking the formation and laid as a barrage, with white bursts above them.</p>
+
+<p>Between <strong>18:31 and 18:35</strong>, from between 18,200 and 20,000 feet, the bombs went away.</p>
+
+<p>A few seconds later <em>Katie</em> took a direct hit in the wing, at the number one engine.</p>
+
+<h2>Out of the aeroplane</h2>
+
+<p>Part of the wing came off. The fuel caught fire, and the bomber fell away into a flaming spin — tight enough that the men inside were pinned where they were by the force of it and physically could not move toward the hatches.</p>
+
+<p>Then the tanks went up. The navigator, Richard Heh, described it afterward:</p>
+
+<blockquote>“The plane started spinning … the gas tanks exploded and blew the bombardier and myself out.”<cite>Richard Heh, navigator, statement preserved with the crew record</cite></blockquote>
+
+<p>The bombardier was Murray Lirette.</p>
+
+<p>Heh remembered nothing more until he came to in mid-air, falling, and reckoned he had already dropped something like ten thousand feet. He got his parachute open. So did Lirette. In the tail, <strong>Herbert South</strong> got himself out of the aircraft under his own power with a compound fracture of the leg.</p>
+
+<p>A crew flying behind saw the aeroplane burning, and then simply gone. Another observer reported that it came down near the marshalling yards and exploded, and that two parachutes were seen. There were in fact three. The main wreckage fell near <strong>Ougrée</strong>, just south-west of central Liège. The Missing Air Crew Report later filed on <em>Katie</em>, number 4866, put the loss down to enemy anti-aircraft fire.</p>
+
+<ul class="crew">
+  <li><span>Jack Hunter <span class="role">· pilot</span></span><span class="fate">killed</span></li>
+  <li><span>George W. Shoesmith <span class="role">· co-pilot</span></span><span class="fate">killed</span></li>
+  <li class="lived"><span>Richard J. Heh <span class="role">· navigator, of Pittsburgh</span></span><span class="fate">prisoner</span></li>
+  <li class="lived"><span>Murray J. Lirette <span class="role">· bombardier, of Houma</span></span><span class="fate">prisoner</span></li>
+  <li><span>Spiro Lecouras <span class="role">· radio operator</span></span><span class="fate">killed</span></li>
+  <li><span>Arthur L. Wellingham <span class="role">· engineer, top turret</span></span><span class="fate">killed</span></li>
+  <li><span>Charles L. Anglin <span class="role">· ball turret, in Medhurst's place</span></span><span class="fate">killed</span></li>
+  <li><span>Robert H. Kuehl <span class="role">· left waist</span></span><span class="fate">killed</span></li>
+  <li><span>John Rupnick <span class="role">· right waist, in Martiello's place</span></span><span class="fate">killed</span></li>
+  <li class="lived"><span>Herbert S. South <span class="role">· tail gunner</span></span><span class="fate">prisoner</span></li>
+</ul>
+
+<p>The two substitutes are the hardest part of the file. Anglin and Rupnick were not <em>Katie</em>'s men; they were aboard only because one of her gunners was wounded and another was not flying. Both were killed. Rupnick had already outlived one crew — he had come to the 100th back in June 1943 with a different one entirely.</p>
+
+<p>Four of the seven dead could not at first be identified, and were buried as unknowns until American Graves Registration teams established who they were.</p>
+
+<p><em>Katie</em> was the only aircraft the group lost that day. Seven more of its B-17s came home with flak damage, four of them seriously, and the rest of the group was back down at Thorpe Abbotts by ten past eight. At interrogation that evening crew after crew complained about the same thing: the bombing altitude had been too low for the number of guns defending the target. They were still giving their accounts when the alert came through for the next day's mission.</p>
+
+<figure class="wide duo" data-remote>
+  <img src="https://100thbg.com/wp-content/uploads/hundreth_bomb_photos/Richard-Helmick-Collection-May-11-1944-Liege-formation-chart.jpg" alt="Typed and hand-annotated formation chart for the 100th Bomb Group's mission to Liège on 11 May 1944">
+  <img src="https://100thbg.com/wp-content/uploads/hundreth_bomb_photos/24071320163200000052liege11may44-1.jpeg" alt="Aerial strike photograph of the Liège marshalling yards taken during the raid of 11 May 1944">
+  <figcaption>Left: the formation chart for the Liège mission, from the Richard Helmick collection — the diagram that put each crew in its slot that afternoon. Right: a strike photograph from the raid. Both 100th Bomb Group Foundation.</figcaption>
+</figure>
+
+<h2>Prisoner</h2>
+
+<p>He was captured, injured, at <strong>Seraing</strong>, just outside Liège, and the Germans put him into hospital in <strong>Brussels</strong>. A captured German report records that Lt Murray Lirette was committed to hospital on <strong>13 May 1944</strong>, two days after the crash. The same report notes that the dead were buried at the Luftwaffe cemetery at the air base it calls Trond — almost certainly <strong>Sint-Truiden</strong>, the German night-fighter station about thirty kilometres west of Liège.</p>
+
+<p>From hospital he went into the prisoner-of-war system, and a captured American airman belonged to the Luftwaffe rather than the army. He was sent to <strong>Stalag Luft III at Sagan</strong>, in Lower Silesia, about a hundred miles south-east of Berlin. Today the town is Żagań, in Poland.</p>
+
+<figure class="wide">
+  <img src="assets/stalag-luft-iii.jpg" alt="A hand-drawn floor plan on aged card of Block 129, South Compound, Stalag Luft III, showing numbered rooms, a washroom and a kitchen">
+  <figcaption>A prisoner's pencil plan of Block 129 in the South Compound of Stalag Luft III, marked “139 men.” Life in the camp was lived in huts like this one. Via Wikimedia Commons; not known to be connected to Lirette, whose compound has not been established.</figcaption>
+</figure>
+
+<p>He arrived at a dark moment in that camp's history. Seven weeks before he was shot down, seventy-six men had tunnelled out of Stalag Luft III in the breakout that became known as the Great Escape. Fifty of the recaptured escapers were murdered on Hitler's direct order, and word of those killings was reaching the outside world in the same weeks Lirette was making his way to Sagan from a German hospital bed.</p>
+
+<p>At home, on <strong>26 August 1944</strong>, the <em>Houma Times</em> printed the news his family had been waiting for. Murray Lirette, prisoner of war, had written home.</p>
+
+<figure class="wide trio" data-remote>
+  <img src="https://100thbg.com/wp-content/uploads/hundreth_bomb_photos/Murray-Lirette-awarded-wings-The_Houma_Times_1943_10_16_4.jpg" alt="Newspaper clipping from the Houma Times, 16 October 1943, reporting that Murray Lirette had been awarded his wings">
+  <img src="https://100thbg.com/wp-content/uploads/hundreth_bomb_photos/Murray-Lirette-POW-writes-home-The_Houma_Times_1944_08_26_1.jpg" alt="Newspaper clipping from the Houma Times, 26 August 1944, reporting that prisoner of war Murray Lirette had written home">
+  <img src="https://100thbg.com/wp-content/uploads/hundreth_bomb_photos/Murray-Lirette-discharged-The_Houma_Times_1945_10_06_1.jpg" alt="Newspaper clipping from the Houma Times, 6 October 1945, reporting that Murray Lirette was to be discharged">
+  <figcaption>His war as his home town saw it, in three notices from the <em>Houma Times</em>: his wings, 16 October 1943; a letter from a prison camp, 26 August 1944; discharge, 6 October 1945. Held in his file at the 100th Bomb Group Foundation.</figcaption>
+</figure>
+
+<h2>The march</h2>
+
+<p>On the night of <strong>27/28 January 1945</strong>, with the Red Army closing on Silesia, the Germans emptied Stalag Luft III at a few hours' notice and marched its prisoners west on foot. It was one of the coldest European winters on record. Men walked in shoes never made for it, dragging what they could on improvised sledges, sleeping in barns and factory sheds, and a good number did not finish.</p>
+
+<p>Lirette finished. The prisoner-of-war records place him next at <strong>Nuremberg-Langwasser</strong>. The injuries he had carried since Liège put him back into a German hospital before the end, and in 1945 he was liberated by troops of <strong>General George S. Patton's Third Army</strong>. Exactly where they found him — which camp, which hospital — has not yet been established.</p>
+
+<p>On <strong>6 October 1945</strong> the <em>Houma Times</em> ran its third and last notice. Murray Lirette was to be discharged.</p>
+
+<h2>Home</h2>
+
+<p>He came home to Louisiana and went to college. In <strong>1948</strong> he graduated from <strong>Louisiana State University</strong> with a bachelor's degree in electrical engineering.</p>
+
+<p>That same year, on <strong>26 November 1948</strong>, he married <strong>Beverly Belanger</strong> of Houma. They raised <strong>four daughters</strong>, and in time moved to <strong>Slidell</strong>, on the north shore of Lake Pontchartrain, which was home for the next fifty-nine years.</p>
+
+<p>The war did not entirely leave him. A profile written when he was ninety-six noted the injuries from the loss of his B-17 were still with him. But the young man who had held a bomber steady over Liège had chosen engineering, and the career he built was in aerospace. In the words of that same profile, his work helped build rockets.</p>
+
+<h2>The rocket factory</h2>
+
+<p>East of New Orleans stands the <strong>Michoud Assembly Facility</strong>, which NASA acquired in 1961 for building very large space vehicles. Saturn rocket stages were built there during the Apollo years. In the 1970s it moved over to the Space Shuttle, and in August 1973 NASA chose <strong>Martin Marietta</strong> to design, build, test and deliver the Shuttle's <strong>External Tank</strong> — the structural backbone of the whole assembly and the reservoir that fed liquid oxygen and liquid hydrogen to the orbiter's main engines. Martin Marietta built the tanks at Michoud, under the management of NASA's Marshall Space Flight Center.</p>
+
+<figure class="wide">
+  <img src="assets/michoud-et1-rollout-1977.jpg" alt="A crowd watches the first Space Shuttle External Tank roll out of a large building at Michoud in 1977">
+  <figcaption>Michoud, 9 September 1977. A crowd watches the first Space Shuttle External Tank roll out of the factory. The first tank built for flight went to the Kennedy Space Center in 1979. NASA photograph.</figcaption>
+</figure>
+
+<p>That is where Murray Lirette's name surfaces again. The <strong>30 March 1984</strong> issue of <em>Martin Marietta News</em> carried a short item headed “New technology awards go to 8.” The company's Denver Aerospace New Technology Evaluation Committee had handed out cash awards for technology disclosures arising from work on NASA contracts, and among the eight was:</p>
+
+<blockquote>“Murray J. Lirette, Michoud production operations: ‘Safing System for Robots and Repetitive Motion Machines.’”<cite><em>Martin Marietta News</em>, 30 March 1984</cite></blockquote>
+
+<p>The item does not describe how the system worked. What it does say is enough: he was in production operations at Michoud during the Shuttle years, he came up with a safety system for industrial robots and repetitive-motion machinery out of NASA-contract work, and the company thought it new enough to reward. On <strong>19 May 1984</strong>, at Martin Marietta's Annual Awards Night, his name was listed again among the New Technology honourees.</p>
+
+<p>Forty years earlier he had been in the nose of a B-17. Now he was helping build the machines that built spacecraft.</p>
+
+<h2>Still turning up</h2>
+
+<p>He kept going for a long time. On his ninety-fifth birthday, in 2019, he went out and shot an <strong>89</strong> at golf. At ninety-six he was still playing three days a week when the weather allowed.</p>
+
+<p>Beverly died on <strong>9 April 2020</strong>, after <strong>seventy-one years of marriage</strong>.</p>
+
+<p>He has stayed close to the Hundredth. He gave his own photographs to the Foundation's archive — the portrait and the Pyote crew picture on this page are both credited to him, which is the only reason anything is known about the crew he did not fly with. And in <strong>May 2025</strong>, aged 101, he went to the 100th Bomb Group reunion at the <strong>National WWII Museum in New Orleans</strong>. Three veterans of the group were there, with more than 360 family members and friends.</p>
+
+<figure class="wide">
+  <img src="assets/reunion-applause-web.jpg" alt="Murray Lirette, wearing a veteran's cap and name badge, walks into a room at the 100th Bomb Group reunion with a walker while family members and guests stand and applaud">
+  <figcaption>New Orleans, May 2025. Murray Lirette comes into the room at the 100th Bomb Group reunion and everyone stands up. Three of his daughters are in the frame — Ellen Richard to his right, Andrea Miles and Diane Maddox to his left — each wearing a badge that reads <em>Daughter of Murray Lirette, 351st BOM, POW</em>. U.S. Air Force photograph by Karen Abeyasekere.</figcaption>
+</figure>
+
+<p>The other two were the pilot John “Lucky” Luckadoo, then 103, and the navigator James Rasmussen, also 101. Between them, one pilot, one navigator and one bombardier of the Bloody Hundredth.</p>
+
+<figure class="wide">
+  <img src="assets/reunion-flag-web.jpg" alt="Three seated World War II veterans clasping hands in front of a large 48-star American flag held up behind them">
+  <figcaption>The same weekend, in front of a wartime 48-star flag: James Rasmussen, John “Lucky” Luckadoo and Murray Lirette, hands joined. Luckadoo, the group's last original pilot, died that September. U.S. Air Force photograph by Karen Abeyasekere.</figcaption>
+</figure>
+
+<h2>Belgium, 2026</h2>
+
+<p>On <strong>16 May 2026</strong>, in Baton Rouge, at 102 years old, Murray Lirette was made a <strong>Chevalier de l'Ordre de Léopold</strong> — a Knight of the Order of Leopold, Belgium's oldest and highest order. It was presented by the Belgian deputy ambassador and by Roland Vandenweghe, the Honorary Consul for Belgium in Louisiana, in recognition of his wartime service over their country.</p>
+
+<p>He was decorated by the country he was shot down over, eighty-two years after he fell into it.</p>
+
+<p>The coverage of that day described him as one of only three men to survive his crew, and as <strong>the last surviving prisoner of war of the 100th Bomb Group</strong>.</p>
+
+<div class="notes">
+
+<h2>Notes on the record</h2>
+
+<h3>Names and numbers</h3>
+
+<p>He appears in the records as <strong>Murray J. Lirette</strong> and <strong>Murray Joseph Lirette</strong>. His serial number is <strong>O-767531</strong> on both his 100th Bomb Group personnel page and the Missing Air Crew Report; one casualty summary prints O-757531, almost certainly a transcription slip. The MACR itself is numbered 04866. One separate “Aircraft Lost” index on the Foundation's site gives 4868 for the Hunter crew, which is an internal database error; the MACR governs.</p>
+
+<h3>What is firm and what is not</h3>
+
+<p><strong>Firm.</strong> His identity, home town, serial number, rank, trade, squadron and group. The Pyote photograph and the reassignment to the Hunter crew. <em>Katie</em> as the crew's aircraft. The 7 May Berlin sortie. The Liège mission of 11 May 1944 — the briefing, the timings, the flak — and the loss of <em>Katie</em> with seven killed and three captured, Lirette among the survivors. Heh's statement that the explosion blew them both out. The German hospital report of 13 May. Stalag Luft III. The three <em>Houma Times</em> notices. The LSU degree, the marriage and the daughters. The 1984 Martin Marietta award at Michoud. The 2025 reunion and the 2026 Order of Leopold.</p>
+
+<p><strong>Inferred, but strongly.</strong> That Trond in the German report is Sint-Truiden. That the crew flew <em>four</em> sorties in five days — Berlin on 7 May, Berlin and La Glacerie on 8 May, Liège on 11 May. The group ledger confirms two separate missions on 8 May, and Martiello's wound ties the crew to La Glacerie, but the crew's own record lists both 8 May rows under mission 112, so the second is not cleanly assigned to mission 113. It is also very likely they flew more than this between 12 April and 11 May; the group's narrative names individual crews only when something happens to them.</p>
+
+<p><strong>From a single later source.</strong> The winter march, the second hospitalisation, and liberation by Patton's Third Army come from 2026 television coverage and are consistent with his POW record, which shows him moved to Nuremberg-Langwasser and returned to military control. The precise place and unit at liberation are not yet documented.</p>
+
+<p><strong>Where the sources disagree.</strong> A few details differ from one record to another, and are left unresolved rather than quietly harmonised:</p>
+
+<ul>
+  <li><strong>When the crew arrived.</strong> One reading of the Foundation's records has the Hunter crew joining the 100th on 5 April 1944; another has 4 May 1944. Wellingham's journal, which begins on 12 April, fits the April date better.</li>
+  <li><strong>Which wing.</strong> The group narrative puts the hit in the wing at the number one engine; the casualty summary calls it the right wing. On a B-17 the number one engine is the outboard engine on the left wing, so the two are hard to reconcile.</li>
+  <li><strong>The clock.</strong> The group narrative has bombs away between 18:31 and 18:35 and the survivors landing at 20:10; the MACR records the aircraft last seen at 19:31.</li>
+  <li><strong>Who gave the statement.</strong> The group's mission narrative introduces Heh's statement as coming from the co-pilot. Heh was the navigator; the co-pilot, George Shoesmith, was killed. The crew list, Heh's own personnel file, and the statement itself — which describes being in the nose with the bombardier — all have him as navigator.</li>
+  <li><strong>The gunners' ranks.</strong> Records variously give Lecouras and Wellingham as staff or technical sergeants, Kuehl as sergeant or staff sergeant, and the ball turret gunner as Charley or Charles L. Anglin. Ranks are left off the crew list above for that reason.</li>
+</ul>
+
+<p><strong>Worth checking.</strong> The photograph of <em>Katie</em> was first supplied for this record by the family, and an identified photograph of 42-39983 with her nose art is catalogued by the Imperial War Museums' American Air Museum; the two should be matched before the image is published anywhere. The 2026 coverage describes the Order of Leopold as recognising his service “in his platoon.” Bomber crews did not have platoons; this looks like a newsroom slip and does not affect the award.</p>
+
+<p><strong>Not established.</strong> His American decorations. He is described publicly as a decorated veteran, and his record would very likely support a Purple Heart, Air Medal and the later Prisoner of War Medal, but no award card or citation list has been seen, so none is claimed here. Likewise his postwar work: the evidence places him with Martin Marietta at NASA's Michoud facility, not as a NASA civil servant, and does not tie him to any particular tank, mission or production station. His hire and retirement dates are not known.</p>
+
+<h3>What is still out there</h3>
+
+<p>Much of this record is recoverable, and some of it from people who are still reachable. Roughly in order of promise:</p>
+
+<ul>
+  <li><strong>Richard Heh's prisoner-of-war journal.</strong> Heh — the navigator blown out of the nose beside Lirette — kept a journal in captivity, and his family has placed a scan of it with the 100th Bomb Group Foundation in two parts, at <code>100thbg.com/images/Diaries/</code>, linked from Heh's personnel page. Two men went out of the same aeroplane at the same instant. The odds that Lirette is in it are very high.</li>
+  <li><strong>Murray's own account.</strong> The best source on this page is not in an archive. The mission list, the compound at Sagan, the route of the march, the hospital at the end — all of it sits in his own memory and in whatever letters, orders, dog tags, logbooks and photographs the family holds. The 100th Bomb Group Foundation runs an oral-history programme and publishes <em>Splasher Six</em>; the National WWII Museum in New Orleans, thirty miles from Slidell, holds one of the largest oral-history collections in the country and will travel to record.</li>
+  <li><strong>MACR 4866, in full.</strong> Held by the U.S. National Archives and digitised on the usual subscription services. The complete document adds the loading list, the eyewitness statements as filed, and the enclosed German capture papers.</li>
+  <li><strong>His service and prisoner records.</strong> The National Archives' POW data file in Record Group 389 should give his camp designation and the date and place of his liberation, along with any liberation questionnaire and casualty correspondence. A next-of-kin request to the National Personnel Records Center is the route to his Official Military Personnel File — with the caveat that the 1973 fire there destroyed a very large share of Army records from this period.</li>
+  <li><strong>The Wellingham journal.</strong> Arthur Wellingham's mission journal was still in family hands in the 1980s, when a surviving crew member wrote about it. It would give the crew's exact mission list, and therefore Lirette's.</li>
+  <li><strong>The 351st Bomb Squadron's operations records</strong> for 7–11 May 1944.</li>
+  <li><strong>Belgium and the seven.</strong> Local aviation historians around Liège and Sint-Truiden document crash sites in detail, and Individual Deceased Personnel Files exist for each of the seven men killed. Between them they should fix where <em>Katie</em> came down and where her dead lie today.</li>
+  <li><strong>Martin Marietta at Michoud.</strong> Employee newsletters, service-anniversary lists and retirement records would fill in his aerospace career. The 1984 award item is on page 2 of the newsletter PDF and is worth cropping and keeping.</li>
+</ul>
+
+<p>Still open: his exact date of birth and his parents' names; his prisoner-of-war number, compound and date of arrival at Sagan; and where the seven men of <em>Katie</em> are buried now.</p>
+
+<div class="detail">
+<b>Name</b>          Murray Joseph Lirette<br>
+<b>Serial no.</b>    O-767531, USAAF<br>
+<b>Rank / trade</b>  2nd Lieutenant, Bombardier<br>
+<b>Unit</b>          351st Bomb Squadron, 100th Bomb Group (H), 8th AF<br>
+<b>Station</b>       Thorpe Abbotts, AAF Station 139, Norfolk<br>
+<b>Aircraft</b>      B-17G 42-39983 “Katie” / EP-F<br>
+<b>Pilot</b>         2nd Lt Jack Hunter<br>
+<b>Loss</b>          11 May 1944, Liège, Belgium — flak<br>
+<b>Casualty file</b> MACR 4866
+</div>
+
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <h3>Sources</h3>
+    <ul>
+      <li><a href="https://100thbg.com/personnel/?personnel_id=3143">100th Bomb Group Foundation, personnel record for Lt Murray J. Lirette</a> — home town, serial number, unit, crew, aircraft, missions, the Pyote photograph, crew memoranda, Heh's statement, the German hospital report, and the photographs and clippings credited to Lirette.</li>
+      <li><a href="https://100thbg.com/personnel/?personnel_id=2262">100th Bomb Group Foundation, personnel record for Lt Richard J. Heh</a> — Heh's statement, the eyewitness report, the crew list, and links to his POW journal.</li>
+      <li><a href="https://100thbg.com/mission/?mission_id=138">100th Bomb Group Foundation, mission narrative for 11 May 1944, mission 115, Liège</a> — briefing, timings, altitudes, flak, formation, and the loss of <em>Katie</em>.</li>
+      <li><a href="https://www.splash.100thbg.com/index.php?Itemid=394&amp;id=91&amp;option=com_bombgrp&amp;view=macr">100th Bomb Group Foundation, Missing Air Crew Report 04866</a> — the Hunter crew, Station 139, 42-39983, Liège M/Y, last sighting and cause of loss.</li>
+      <li><a href="https://www.splash.100thbg.com/index.php?Itemid=334&amp;id=91&amp;option=com_bombgrp&amp;view=casualtyreports">100th Bomb Group Foundation, casualty report, 11 May 1944</a> — the crash near Ougrée, capture at Seraing, the Brussels hospital, the substitute gunners and the initial burials.</li>
+      <li><a href="https://www.old.100thbg.com/index.php?Itemid=333&amp;limitstart=100&amp;option=com_bombgrp&amp;view=missions">100th Bomb Group Foundation, mission database</a> — separates 7 May Berlin (111), 8 May Berlin (112), 8 May La Glacerie (113), 9 May Laon (114) and 11 May Liège (115).</li>
+      <li><a href="https://100thbg.com/bowman-diary/">Bowman Diary, 100th Bomb Group operations</a> — the 7 May Berlin mission, the two 8 May operations, and the 11 May Liège strike.</li>
+      <li><a href="https://100thbg.com/abbreviated-history/">100th Bomb Group Foundation, Abbreviated History</a> — unit history and Thorpe Abbotts.</li>
+      <li><a href="https://www.nationalww2museum.org/war/articles/bloody-100th-bomb-group">The National WWII Museum, “The Bloody 100th Bomb Group”</a>, and <em>Smithsonian Magazine</em>, January 2024 — the group's nickname, mission and loss totals, and Harry Crosby on the shape of its casualties.</li>
+      <li><a href="https://www.sonsoflibertymuseum.org/pows/lirette-murray-l426417531.cfm">Sons of Liberty Museum, POW record for Murray Lirette</a> — U.S. National Archives POW data: Stalag Luft III, Nuremberg-Langwasser, and return to military control.</li>
+      <li><a href="https://www.dvidshub.net/news/296259/black-thursday-second-schweinfurt-raid-and-legacy-beyond">DVIDS</a> — context for the January 1945 evacuation of Stalag Luft III.</li>
+      <li><a href="https://www.coe.lsu.edu/test/files/alumni/lostalumni.pdf">Louisiana State University College of Engineering alumni list</a> — Murray Joseph Lirette, 1948, B.S. Electrical Engineering.</li>
+      <li><a href="https://www.honakerforestlawn.com/obituary/beverly-lirette">Obituary of Beverly Belanger Lirette, Honaker Forest Lawn</a>, and <a href="https://www.legacy.com/us/obituaries/legacyremembers/beverly-lirette-obituary?id=2220991">Legacy.com</a>, April 2020 — marriage date, the four daughters, Slidell and the length of the marriage.</li>
+      <li><a href="https://www.peopleshealth.com/wp-content/uploads/2021/02/2021-Winter-Connection-2.pdf"><em>Peoples Health Connection</em>, Winter 2021</a> — profile at 96: the lingering injuries, the aerospace career, and golf.</li>
+      <li><a href="https://marsretirees.org/wp-content/uploads/historical-documents/Martin%20Marietta%20News%201984-06.pdf"><em>Martin Marietta News</em>, 1984</a> — “New technology awards go to 8,” naming Murray J. Lirette of Michoud production operations. And <a href="https://marsretirees.org/wp-content/uploads/historical-documents/Martin%20Marietta%20News%201984-10.pdf">the 1984 Annual Awards Night issue</a>, listing him among the New Technology honourees of 19 May 1984.</li>
+      <li><a href="https://www.nasa.gov/history/50-years-ago-nasa-selects-contractor-for-space-shuttle-external-tank/">NASA, “50 Years Ago: NASA Selects Contractor for Space Shuttle External Tank”</a>; <a href="https://www.nasa.gov/maf-space/maf-history/">NASA, Michoud history</a>; and <a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-marshall-reflects-on-65-years-of-ingenuity-teamwork/">NASA Marshall, 65 years</a> — Michoud, the External Tank contract, and the 1977 rollout.</li>
+      <li><a href="https://www.dvidshub.net/news/499243/legacy-greatest-generation-continues-with-100th-arw-100th-bg-reunion-nola">DVIDS / U.S. Air Force, 30 May 2025</a> — the 100th Bomb Group reunion in New Orleans.</li>
+      <li><a href="https://www.wbrz.com/news/102-year-old-world-war-ii-veteran-honored-by-the-honorary-consul-for-belgium-in-louisiana/">WBRZ, Baton Rouge, 16 May 2026</a> — the Order of Leopold ceremony, the winter march, the second hospitalisation, liberation, and his standing as the group's last surviving POW.</li>
+      <li>Background on Stalag Luft III, the Great Escape, the Order of Leopold and the Norden bombsight from standard reference sources.</li>
+    </ul>
+    <h3>Photographs</h3>
+    <ul>
+      <li>The portrait and the Pyote crew — 100th Bomb Group Foundation, donated by Murray Lirette.</li>
+      <li><em>Katie</em> — <a href="https://americanarchive.iwm.org.uk/archive/aircraft/42-39983">Imperial War Museums / American Air Museum, 42-39983</a>; see the note above on matching the copy used here.</li>
+      <li>The three <em>Houma Times</em> clippings, the Liège formation chart and the strike photograph — 100th Bomb Group Foundation, linked from its site.</li>
+      <li>The two 2025 reunion photographs — U.S. Air Force, by Karen Abeyasekere.</li>
+      <li>The B-17 bomb run and the Stalag Luft III block plan — public-domain images via Wikimedia Commons; they show neither Lirette nor his aircraft.</li>
+      <li>The External Tank rollout — NASA.</li>
+    </ul>
+    <p>Compiled September 2026 from three earlier working drafts of this record. Nothing here goes beyond what those drafts documented; where they disagreed, the disagreement is set out in the notes.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('themeToggle'),label=document.getElementById('themeLabel');
+  function systemDark(){return window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;}
+  function current(){return root.getAttribute('data-theme')||(systemDark()?'dark':'light');}
+  function paint(){label.textContent=current()==='dark'?'Light':'Dark';}
+  btn.addEventListener('click',function(){root.setAttribute('data-theme',current()==='dark'?'light':'dark');paint();});
+  if(window.matchMedia){var mq=window.matchMedia('(prefers-color-scheme: dark)');
+    var onChange=function(){if(!root.getAttribute('data-theme'))paint();};
+    mq.addEventListener?mq.addEventListener('change',onChange):mq.addListener(onChange);}
+  paint();
+})();
+(function(){
+  // Remote images from 100thbg.com can be blocked; drop a whole figure rather than show broken images.
+  document.querySelectorAll('figure[data-remote] img').forEach(function(img){
+    function fail(){img.closest('figure').classList.add('noimg');}
+    if(img.complete&&img.naturalWidth===0)fail(); else img.addEventListener('error',fail);
+  });
+})();
+</script>
+
+</body>
+</html>
