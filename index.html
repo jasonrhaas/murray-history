@@ -174,9 +174,8 @@
     font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:1rem;
     white-space:nowrap;
   }
-  .ledger .lost .who{color:var(--oxide);text-decoration:line-through;text-decoration-thickness:1.5px}
-  .ledger .lost .role{color:#96706A}
-  .ledger .lost .fate{color:var(--oxide)}
+  .ledger .lost .who::before{content:"\2020\a0";color:var(--ink-soft);font-weight:400}
+  .ledger .lost .fate{color:var(--ink-soft);font-weight:500}
   .ledger .kept .fate{color:#3C5A2E}
   .tally{
     font-family:"Barlow Condensed",sans-serif;font-size:1.15rem;
